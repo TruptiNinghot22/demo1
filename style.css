@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contain{
+    width: 100%;
+    font-size: 30px; 
+}
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(210, 200, 200);
+    z-index: 1;
+}
+.log:hover{
+    color: red;
+}
+.log{
+    list-style: none;
+    white-space: nowrap; 
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.navbar li:hover{
+    color: rgb(250, 250, 68);
+}
+.navbar li{
+    margin: 0 30px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(246, 236, 224);
+}
+button:hover{
+    background-color: rgb(173, 145, 127);
+}
+.middle-part{
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(131, 189, 189);
+}
+.middle{
+    height: 500px;
+    width: 450px;
+    border: 5px solid rgb(99, 35, 99);
+    margin-top: 100px;
+}
+
+.part7{
+    height: 120px;
+    width: 150px;
+    border: 3px solid rgb(190, 153, 61); 
+    margin: 20px;
+    margin-left: 150px;
+    border-radius: 15px;
+    background-color:rgb(8, 91, 91);
+}
+.part8{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 150px;
+    border-radius: 15px;
+    border: 3px solid rgb(190, 153, 61); 
+    background-color: rgb(127, 116, 116);
+}
+.part9{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 150px;
+    border-radius: 15px;
+    border: 3px solid rgb(190, 153, 61); 
+    background-color:rgb(8, 91, 91);
+}
+.part1{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 200px;
+    margin-top: 40px;
+    border-radius: 15px;
+    border: 3px solid rgb(190, 153, 61); 
+    background-color:rgb(8, 91, 91);
+}
+.part2{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 150px;
+    border-radius: 15px;
+    background-color: rgb(127, 116, 116);
+    border: 3px solid rgb(190, 153, 61); 
+    position: relative;
+    right: 140px;
+}
+.part3{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 200px;
+    background-color:rgb(8, 91, 91);
+    border: 3px solid rgb(190, 153, 61); 
+    border-radius: 15px;
+    position: relative;
+    bottom: 140px;
+
+}
+.part4{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 120px;
+    margin-top: 40px;
+    background-color:rgb(8, 91, 91);
+    border: 3px solid rgb(190, 153, 61); 
+    border-radius: 15px;
+}
+.part5{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    border-radius: 15px;
+    margin-left: 150px;
+    background-color: rgb(127, 116, 116);
+    border: 3px solid rgb(190, 153, 61); 
+    position: relative;
+    left: 140px;
+}
+.part6{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 120px;
+    background-color:rgb(8, 91, 91);
+    border: 3px solid rgb(190, 153, 61); 
+    border-radius: 15px;
+    position: relative;
+    bottom: 140px;
+
+}
+.middle-part1{
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    background-color:burlywood;
+}
+.middle2{
+    height: 500px;
+    width: 450px;
+    border: 1px solid black;
+    margin-top: 100px;
+    border: 5px solid rgb(99, 35, 99);
+
+    background-color: rgb(240, 209, 214);
+}
+.part-11{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 150px;
+    background-color:rgb(8, 91, 91);
+    border: 3px solid rgb(190, 153, 61); 
+    border-radius: 15px;
+}
+.part-12{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 150px;
+    background-color: rgb(127, 116, 116);
+    border: 3px solid rgb(190, 153, 61); 
+    border-radius: 15px;
+}
+.part-13{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 150px;
+    background-color:rgb(8, 91, 91);
+    border: 3px solid rgb(190, 153, 61); 
+    border-radius: 15px;
+}
+.part-14{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 150px;
+    background-color:rgb(8, 91, 91);
+    border: 3px solid rgb(190, 153, 61); 
+    border-radius: 15px;
+}
+.part-15{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 200px;
+    position: relative;
+    top:50px;
+    background-color: rgb(127, 116, 116);
+    border: 3px solid rgb(190, 153, 61); 
+    border-radius: 15px;
+}
+.part-16{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 150px;
+    background-color:rgb(8, 91, 91);
+    border: 3px solid rgb(190, 153, 61); 
+    border-radius: 15px;
+}
+.part-17{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color:rgb(8, 91, 91);
+    border: 3px solid rgb(190, 153, 61); 
+    border-radius: 15px;
+}
+.part-18{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 150px;
+    background-color: rgb(127, 116, 116);
+    border: 3px solid rgb(190, 153, 61); 
+    border-radius: 15px;
+    position: relative;
+    right: 140px;
+}
+.part-19{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black; 
+    margin: 20px;
+    margin-left: 200px;
+    background-color:rgb(8, 91, 91);
+    border: 3px solid rgb(190, 153, 61); 
+    border-radius: 15px;
+    position: relative;
+    bottom: 140px;
+}
+
+.middle-part3{
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px; 
+    background-color:burlywood;
+}
+.middle3{
+    height: 500px;
+    width: 450px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    border: 5px solid rgb(99, 35, 99);
+    top: 200px;
+}
+.part{
+    position: sticky;
+    bottom: 240px;
+    left: 130px;
+    background-color:rgb(8, 91, 91);
+    border:3px solid rgb(190, 153, 61);
+    width: 150px;
+    height: 150px;
+    border-radius: 15px; 
+}
+p{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.middle-part4{
+    background-color: antiquewhite;
+    height: 1700px;
+}
+.A1{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 150px;
+
+}
+.item20, .item21, .item22, .item23{
+    width: 150px;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(129, 189, 169);
+    bottom: 40px;
+    padding: 40px;
+    margin: 10px;
+    border: 3px solid rgb(190, 153, 61); 
+
+}
+.hr{
+    height: 3px;
+    width: 1670px;
+    background-color:red;
+    position: relative;
+    left: 300px;
+    bottom: 280px;
+}
+.A2{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 250px;
+}
+.item24,.item25,.item26,.item27,.item28,.item29,.item30,.item31,.item32,.item33,.item34, .item35{
+    width: 150px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 40px;
+    border: 3px solid rgb(190, 153, 61); 
+}
+.A3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 600px;
+}
+.A4{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 590px;
+}
+.item34{
+    width: 150px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    position: relative;
+    right: 680px;
+    border: 3px solid rgb(190, 153, 61); 
+}
+.item35{
+    width: 150px;
+    height: 120px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    position: relative;
+    left: 680px;
+    border: 3px solid rgb(190, 153, 61); 
+}
+.hr2{
+    height: 3px;
+    width: 1690px;
+    background-color: red;
+    position: relative;
+    left: 290px;
+    bottom: 570px;
+}
+.A5{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 550px;
+    text-align: center;
+}
+.item36{
+    width: 150px;
+    height: 120px;
+    border: 3px solid rgb(190, 153, 61); 
+    background-color: blueviolet;
+    border-radius: 15px;
+    position: relative;
+    left: 40px;
+    padding: 30px;
+
+}
+.item37{
+    width: 150px;
+    height: 120px;
+    border: 3px solid rgb(190, 153, 61); 
+    background-color: blueviolet;
+    border-radius: 15px;
+    position: relative;
+    right: 310px;
+    padding: 30px;
+}
+.item38{
+    border: 3px solid rgb(190, 153, 61); 
+    background-color: blueviolet;
+    border-radius: 15px;
+    align-self: stretch;
+    flex-grow: 0.4;
+    position: relative;
+    right: 10px;
+    padding: 30px;
+}
+.item39{
+    width: 150px;
+    height: 120px;
+    border: 3px solid rgb(190, 153, 61); 
+    background-color: blueviolet;
+    border-radius: 15px;
+    position: relative;
+    left: 100px;
+    padding: 30px;
+
+}
+.item40{
+    width: 150px;
+    height: 120px;
+    border: 3px solid rgb(190, 153, 61); 
+    background-color: blueviolet;
+    border-radius: 15px;
+    position: relative;
+    left: 160px; 
+    padding: 30px;
+}
+.hr3{
+    height: 3px;
+    width: 1690px;
+    background-color: red;
+    position: relative;
+    left: 290px;
+    bottom: 530px;
+}
+.A6{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 500px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.item1,.item2, .item3, .item4,.item5{
+    width: 150px;
+    height: 120px;
+    border: 3px solid rgb(190, 153, 61); 
+    background-color: rgb(225, 101, 223);
+    border-radius: 15px;
+    padding: 30px;
+}
+.d12{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 450px;
+}
+.item6{
+    width: 150px;
+    height: 120px;
+    border: 3px solid rgb(190, 153, 61); 
+    background-color: rgb(225, 101, 223);
+    border-radius: 15px;
+    padding: 30px;
+}
+footer{
+    background-color:cyan;
+    height: 90px;
+    padding: 20px;
+    text-align: center;
+    color: goldenrod;
+}
+.footer1{
+    margin: 10px;
+    font-size: 40px;
+}
+.footer1:hover{
+    color: rgb(62, 64, 109);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
